@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For US scrap dealers and metal recyclers: every purchase recorded with seller ID, material, weight and payment, kept and reported per state law.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Scrap Purchase Log</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Scrap Purchase Log</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Every scrap purchase recorded the way your state asks — catalytic converters included</h1>
-    <p class="sub">For scrap yards and metal recyclers in the US: each purchase is recorded at the scale with the seller's ID, a photo, the material, weight, amount and payment method, catalytic converters with their details, and the records are kept and reported under your state's rules.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For scrap yards and metal recyclers</p>
+      <h1 class="rise" style="--i:1" data-len="long">Every scrap purchase recorded the way your state asks&nbsp;<span class="soft">— catalytic converters included</span></h1>
+      <p class="rise" style="--i:2">For scrap yards and metal recyclers in the US: each purchase is recorded at the scale with the seller's ID, a photo, the material, weight, amount and payment method, catalytic converters with their details, and the records are kept and reported under your state's rules.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" fill="#0a1524" font-weight="600">scrap purchase</text><line x1="80" y1="200" x2="1120" y2="200" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="48" height="48" fill="#dfe8f7" rx="10" stroke="#12397a" stroke-width="4" /><text x="190" y="284" font-size="32" fill="#566174">seller</text><rect x="120" y="370" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="190" y="404" font-size="32" fill="#566174">photo</text><rect x="120" y="490" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="190" y="524" font-size="32" fill="#566174">weight</text><rect x="680" y="240" width="400" height="420" fill="#dfe8f7" rx="20" /><text x="710" y="300" font-size="32" fill="#0a1524" font-weight="600">converters</text><rect x="730" y="415" width="56" height="205" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="830" y="440" width="56" height="180" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="930" y="475" width="56" height="145" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Scrap yards and metal recyclers</dd></div>
+      <div><dt>Records</dt><dd>Purchase is recorded</dd></div>
+      <div><dt>Scale</dt><dd>Recorded at the scale</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Purchase record</b><span>Seller, ID, photo, vehicle, material, weight, amount and payment method for every purchase.</span><br><a class="btn" href="price.html" data-ev="feature_purchase">I need this</a></div>
-      <div class="card"><b>Catalytic converters</b><span>Converters recorded one by one with the details your state asks for.</span><br><a class="btn" href="price.html" data-ev="feature_converters">I need this</a></div>
-      <div class="card"><b>State rules</b><span>The record fields, hold periods and payment limits of the state your yard is in.</span><br><a class="btn" href="price.html" data-ev="feature_state">I need this</a></div>
-      <div class="card"><b>Reports</b><span>Records exported or reported in the format the local police or state database accepts.</span><br><a class="btn" href="price.html" data-ev="feature_reports">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="32" fill="#0a1524" font-weight="600">Purchase record</text><rect x="90" y="160" width="250" height="380" fill="#0a1524" rx="36" /><rect x="110" y="190" width="210" height="300" fill="#ffffff" rx="12" /><rect x="150" y="500" width="130" height="16" fill="#dfe8f7" rx="8" /><rect x="390" y="200" width="300" height="140" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="240" width="220" height="20" fill="#dde2ea" rx="8" /><rect x="420" y="280" width="160" height="20" fill="#12397a" rx="8" /><polygon points="430,340 390,340 420,370" fill="#ffffff" /></svg></div>
+        <h3>Purchase record</h3><p>Seller, ID, photo, vehicle, material, weight, amount and payment method for every purchase.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_purchase">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" fill="#0a1524" font-weight="600">Catalytic converters</text><rect x="120" y="210" width="520" height="56" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="290" width="520" height="56" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="370" width="520" height="56" fill="#12397a" rx="28" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="450" width="520" height="56" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Catalytic converters</h3><p>Converters recorded one by one with the details your state asks for.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_converters">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="32" fill="#0a1524" font-weight="600">State rules</text><rect x="200" y="210" width="420" height="28" fill="#dde2ea" rx="8" /><rect x="120" y="210" width="36" height="36" fill="#ffffff" rx="6" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="290" width="420" height="28" fill="#b9c3d2" rx="8" /><rect x="120" y="290" width="36" height="36" fill="#ffffff" rx="6" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="370" width="420" height="28" fill="#dde2ea" rx="8" /><rect x="120" y="370" width="36" height="36" fill="#ffffff" rx="6" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="450" width="420" height="28" fill="#b9c3d2" rx="8" /><polygon points="130,450 160,450 160,486 145,472" fill="#12397a" /><line x1="120" y1="458" x2="130" y2="458" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>State rules</h3><p>The record fields, hold periods and payment limits of the state your yard is in.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_state">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="32" fill="#0a1524" font-weight="600">Reports</text><rect x="120" y="200" width="44" height="44" fill="#12397a" rx="8" stroke="#12397a" stroke-width="4" /><rect x="190" y="210" width="324" height="24" fill="#dde2ea" rx="12" /><rect x="120" y="280" width="44" height="44" fill="#ffffff" rx="8" stroke="#12397a" stroke-width="4" /><rect x="190" y="290" width="361" height="24" fill="#b9c3d2" rx="12" /><rect x="120" y="360" width="44" height="44" fill="#ffffff" rx="8" stroke="#12397a" stroke-width="4" /><rect x="190" y="370" width="398" height="24" fill="#dde2ea" rx="12" /><rect x="120" y="440" width="44" height="44" fill="#ffffff" rx="8" stroke="#12397a" stroke-width="4" /><rect x="190" y="450" width="255" height="24" fill="#b9c3d2" rx="12" /></svg></div>
+        <h3>Reports</h3><p>Records exported or reported in the format the local police or state database accepts.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_reports">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Two-scale yard in Ohio, 90 purchases a day. A seller brings copper wire and two catalytic converters: the clerk scans the driver's license, takes a photo, weighs the copper, enters each converter, and the payment is recorded as a check. At the end of the day the purchase report is ready to submit.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Two-scale yard in Ohio, 90 purchases a day. A seller brings copper wire and two catalytic converters: the clerk scans the driver's license, takes a photo, weighs the copper, enters each converter, and the payment is recorded as a check. At the end of the day the purchase report is ready to submit.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Ohio</text><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">copper</text><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">check</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">copper wire</text><rect x="170" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="500" width="64" height="64" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="620" y="500" width="64" height="64" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="3" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Nearly every US state has a metal-theft law, and scrap dealers are the businesses those laws are written for. A yard that buys scrap has to keep detailed purchase records: who sold, with which ID, what was sold and how much it weighed, the date, the amount paid and the payment method. Many states add photos, vehicle details, hold periods and limits on paying cash.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Nearly every US state has a metal-theft law, and scrap dealers are the businesses those laws are written for. A yard that buys scrap has to keep detailed purchase records: who sold, with which ID, what was sold and how much it weighed, the date, the amount paid and the payment method. Many states add photos, vehicle details, hold periods and limits on paying cash.</p>
     <p>Catalytic converters get special attention. Because converter theft has become common, many states ask for more details on every converter purchase and some restrict who may sell them and how they may be paid. A yard that buys converters needs every one of them recorded, not just a weight on a ticket.</p>
     <p>The service records the purchase at the scale. The clerk scans or types the seller's ID, takes a photo of the seller and the material, picks the material and enters the weight, and the amount is calculated from the yard's price list. Converters are entered one by one with the details your state requires.</p>
     <p>The record follows your state's rules: the fields it asks for, the hold period before material may be sold on, and whether a payment has to be made by check or electronically instead of cash. A purchase that is missing a required field cannot be closed until it is completed, so gaps are found at the counter, not during an inspection.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>The service works in the browser on the scale-house computer or a tablet, nothing to install. Each clerk has a login, and every change to a record is kept with the name of the person who made it.</p>
     <p>Getting started takes one day: enter your yard, your state, your price list and your clerks, and record the next morning's purchases in the service. Past paper records stay in your files as they are.</p>
     <p>The service is built for independent scrap yards and metal recyclers with one or a few locations. It helps keep the records your state asks for; it does not give legal advice, and the yard remains responsible for complying with its state and local laws. It is in preparation: we are checking whether yards need it.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Which records does a scrap yard have to keep?</h3>
-    <p>It depends on the state; most metal-theft laws ask for the seller's ID, the material and weight, the date, the amount paid and the payment method, and many add photos and vehicle details.</p>
-    <h3>Are catalytic converters handled separately?</h3>
-    <p>Yes, each converter is recorded one by one with the details your state asks for.</p>
-    <h3>Does it follow my state's rules?</h3>
-    <p>Yes, the record fields, hold periods and payment rules follow the state your yard is in.</p>
-    <h3>Is this legal advice?</h3>
-    <p>No. The service keeps records; the yard remains responsible for complying with state and local law.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether yards need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Which records does a scrap yard have to keep?</h3><p>It depends on the state; most metal-theft laws ask for the seller's ID, the material and weight, the date, the amount paid and the payment method, and many add photos and vehicle details.</p></div>
+      <div class="split flip"><h3>Are catalytic converters handled separately?</h3><p>Yes, each converter is recorded one by one with the details your state asks for.</p></div>
+      <div class="split flip"><h3>Does it follow my state's rules?</h3><p>Yes, the record fields, hold periods and payment rules follow the state your yard is in.</p></div>
+      <div class="split flip"><h3>Is this legal advice?</h3><p>No. The service keeps records; the yard remains responsible for complying with state and local law.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether yards need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your yard</h2>
-    <p><label>Purchases per day<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 30</option><option>30–100</option><option>100–300</option><option>More than 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your yard</h2>
+    </div>
+    <div class="tile stack">
+      <label>Purchases per day<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 30</option><option>30–100</option><option>100–300</option><option>More than 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Scrap Purchase Log</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Purchase records for your yard; no legal advice. The yard remains responsible for complying with state and local law.</p>
+  <p>Purchase records for your yard; no legal advice. The yard remains responsible for complying with state and local law.</p>
 </div></footer>
 
 </body>
